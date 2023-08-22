@@ -1,0 +1,23 @@
+
+.container{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    
+}
+.c1{
+  width: 45%;  
+}
+.c3{
+    width: 45%;
+}
+#c1 , #c3{
+    margin: 10%;
+    border: solid black 3px;
+}
+.c2{
+   
+    margin: auto;
+    width: 10%;
+    display: inline;
+}

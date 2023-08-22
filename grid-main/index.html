@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+  </head>
+  <body>
+    <style>
+      .small-img1 {
+        grid-area: small-img1;
+      }
+      .medium-img1 {
+        grid-area: medium-img1;
+      }
+      .large-img1 {
+        grid-area: large-img1;
+      }
+      .medium-img2 {
+        grid-area: medium-img2;
+      }
+      .small-img2 {
+        grid-area: small-img2;
+      }
+      .large-img2 {
+        grid-area: large-img2;
+      }
+      .grid-parent-container {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+          "small-img1 large-img1 medium-img2 large-img2"
+          "medium-img1 large-img1 medium-img2 large-img2"
+          "medium-img1 large-img1 small-img2 large-img2";
+      }
+    </style>
+    <div class="grid-parent-container">
+      <div class="grid-child small-img1">
+        <img src="https://source.unsplash.com/random/200x100" />
+      </div>
+      <div class="grid-child medium-img1">
+        <img src="https://source.unsplash.com/random/200x400" />
+      </div>
+      <div class="grid-child large-img1">
+        <img src="https://source.unsplash.com/random/300x600" />
+      </div>
+      <div class="grid-child medium-img2">
+        <img src="https://source.unsplash.com/random/210x400" />
+      </div>
+      <div class="grid-child small-img2">
+        <img src="https://source.unsplash.com/random/210x100" />
+      </div>
+      <div class="grid-child large-img2">
+        <img src="https://source.unsplash.com/random/400x600" />
+      </div>
+    </div>
+  </body>
+</html>

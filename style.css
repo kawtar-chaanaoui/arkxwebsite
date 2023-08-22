@@ -1,0 +1,61 @@
+
+fieldset {
+	border: 1px solid rgb(0, 0, 05);
+	border-collapse: collapse;
+	text-align: center;
+	height: 75%;
+	
+	
+  }
+ p
+ {
+	font-size:large;
+    color: #ffc8c8; ;
+	font-weight:bold;
+	text-align: center;
+	font-family:monospace ;
+
+ }
+ .formdiv{
+	margin-top: 10%;
+	margin-left: 35%;
+	margin-right: 10%;
+	width: 30%;
+		
+ }
+ label{
+	color:  rgb(239,48,97);
+	text-align: left;
+	float: left;
+	font-family: cursive;
+	font-weight: 300;
+ }
+ .CSS , .HTML{
+	color: black;
+	text-align: center;
+	float: initial;
+	width: 5%;
+	font-family: serif;
+ }
+ input ,select{
+	float: initial;
+	width: 40%;
+	font-family: serif;
+	font-weight: bolder;
+ }
+legend{
+	text-align: left;
+	font-size: large;
+	font-family: cursive;
+	color:rgb(252, 7, 55) ;
+	font-weight: bold;
+}
+.button{
+	border-radius: 10% ;
+	border-color: #ffc8c8;
+	background-color: #ffc8c8;
+	color: rgb(251, 248, 248);
+	margin-left: 10%;
+	
+	
+}
